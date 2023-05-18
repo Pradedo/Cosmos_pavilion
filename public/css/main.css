@@ -1,0 +1,87 @@
+header {
+    position: absolute;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    margin-left: 0;
+    top:0%;
+    
+}
+.text {
+    margin-left: 10px;
+}
+body {
+    margin: 0%;
+}
+#app {
+    padding-bottom: 0%;
+}
+#menu {
+    margin-top: 0%;
+    width: 100%;
+    left: 0%;
+    background-color: darkgrey;
+}
+ul li {
+    display: inline;
+    background-color: darkgrey;
+}
+.im {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.im img {
+    width: 100%;
+    height: 40%;
+    padding-bottom: 0%;
+    background-color: aqua;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: darkgrey;
+    
+}
+a:hover {
+    background: blue;
+}
+
+#history, #exposition {
+    margin-left: 10px;
+    margin-top: 0px;
+}
+h1 {
+    padding-top: 10px;
+    color: white;
+}
+.gal {
+    background: grey;
+    width: 100%;
+}
+.picture {
+    width: 900px;
+}
+.picture img {
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.pictures {
+    width: 900px;
+    align-content: center;
+    display: flex;
+}
+.pictures img {
+    width: 150px;
+    margin: 10px;
+}
+.active {
+    border: 4px solid blue;
+}
